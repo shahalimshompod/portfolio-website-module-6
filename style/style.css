@@ -212,4 +212,126 @@ ul .primary-btn{
     color: #757575;
 
 }
+
+.whole-resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.resume-heading{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: #181818;
+    margin: 150px 0px 80px 0px;
+}
+
+.resume-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume-subtitle{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.university-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.overall-skill{
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.cv-btn{
+    margin: 50px auto;
+}
+
   /* main styles */
+
+  /* footer styles */
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 380px;
+    gap: 120px;
+    background-color: #FFF8F3;
+}
+
+.footer-connection-make{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #181818;
+}
+
+.footer-connection-make-para{
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    color: #474747;
+}
+
+.form-title{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #181818;
+}
+
+.sei-form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form-input{
+    width: 460px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+}
+
+form > button{
+   width: 150px;
+   height: 64px;
+}
+
+.form-input-textarea{
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-container-2{
+    background-color: #FFF8F3;
+    
+}
+
+.Rights{
+    text-align: center;
+    font-size: small;
+    font-weight: 100;
+    
+    padding: 50px auto;
+}
+
+.primary-btn:hover{
+    opacity: 0.7;
+}
+
+.primary-btn{
+    cursor: pointer;
+}
