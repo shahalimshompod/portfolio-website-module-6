@@ -362,7 +362,7 @@ form > button{
       height: 50px;
       text-align: center;
       position: relative;
-      right: 10px;
+      right: calc(100% - 332px);
     }
 
     ul .primary-btn{
