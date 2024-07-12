@@ -362,8 +362,8 @@ form > button{
       height: 50px;
       text-align: center;
       position: relative;
-      right: calc(100% - 332px);
-      left: calc(100% - 332px);
+      right: 20px;
+      
     }
 
     ul .primary-btn{
