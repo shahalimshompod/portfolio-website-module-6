@@ -335,3 +335,77 @@ form > button{
 .primary-btn{
     cursor: pointer;
 }
+
+
+/* responsive designs for mobile phones*/
+
+.hide{
+  display: none;
+}
+
+
+@media screen and (max-width:576px) {
+
+  /* banner section */
+
+    .banner, nav{
+      flex-direction: column;
+    } 
+
+    ul{
+      flex-direction: row;
+      /* margin: 0 auto; */
+      /* background-color: aquamarine; */
+      gap: 50px;
+      margin: 0px;
+      width: 100%;
+      height: 50px;
+      text-align: center;
+      position: relative;
+      right: 0px;
+    }
+
+    ul .primary-btn{
+      font-size: 12px;
+      width: 110px;
+      margin-bottom: 0;
+      padding: 9px 18px;
+    }
+
+    nav ul{
+      margin: 0 auto;
+      
+      
+  }
+
+  nav ul li{
+    margin-right: 0px;
+}
+    
+
+    .banner, nav{
+      margin: 20px;
+    }
+
+    nav{
+      padding: 20px;
+    }
+
+    .banner img {
+      max-width: 100%;
+  }
+
+  .header-nav{
+     background-image: none;
+  }
+
+  .primary-btn{
+    margin-right: 0px;
+  }
+
+  /* design for main ::selection */
+
+
+
+}
+
