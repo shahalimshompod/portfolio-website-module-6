@@ -179,7 +179,7 @@ ul .primary-btn{
     width: 267px;
     padding: 30px 50px 30px 50px;
     background-color: #ffffff;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 6);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.4);
     border-radius: 5px;
   }
   
@@ -348,14 +348,12 @@ form > button{
 
   /* banner section */
 
-    .banner, nav{
+    .banner, nav,  .about-items, .skills-container, .whole-resume-container, .footer-container{
       flex-direction: column;
     } 
 
     ul{
       flex-direction: row;
-      /* margin: 0 auto; */
-      /* background-color: aquamarine; */
       gap: 55px;
       margin: 0px;
       width: 100%;
@@ -406,7 +404,34 @@ form > button{
 
   /* design for main ::selection */
 
+  .main-all-content-container{
+    padding: 20px;
+  }
 
+  .about-items > .about-item{
+  margin-bottom: 20px;
+  }
+
+  .whatido-text-container {
+    padding: 20px;
+}
+
+.skills-container{
+  align-items: center;
+}
+
+.whole-resume-container{
+margin: 20px;
+}
+
+.footer-container{
+  padding: 20px;
+  /* margin: 20px; */
+}
+
+.form-input{
+  width: 100%;
+}
 
 }
 
