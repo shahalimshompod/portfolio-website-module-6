@@ -32,6 +32,11 @@ ul{
     list-style: none;
     display: flex;
     align-items: center;
+    background-color: #f7dac6;
+      border-radius: 20px;
+      padding: 0px 10px;
+      width: 480px;
+      justify-content: center;
 }
 
 nav ul li{
